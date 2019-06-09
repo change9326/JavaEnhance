@@ -32,6 +32,7 @@
 ### 诊断利器
 -  [alibaba/arthas【Alibaba Java诊断利器Arthas】](https://github.com/alibaba/arthas)
 ### SQL优化工具
+-  [SOAR(SQL Optimizer And Rewriter)是一个对SQL进行优化和改写的自动化工具](https://github.com/XiaoMi/soar)
 ### 压测工具
 - [wg/wrk](https://github.com/wg/wrk)
 - [apache/jmeter](https://github.com/apache/jmeter)
