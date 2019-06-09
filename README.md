@@ -32,6 +32,7 @@
 ### Mysql 
 #### Mysql索引
 #### SQL优化
+- [MySQL 查看执行计划](https://www.cnblogs.com/klvchen/p/10137117.html)
 
 ## 工欲善其事必先利其器
 ### 诊断利器
