@@ -22,6 +22,7 @@
 ### JVM
 
 ## Mysql 
-## 内功修炼
+## 内功修炼之道
 ### 数据结构&算法
+- [MisterBooo/LeetCodeAnimation【用动画的形式呈现解LeetCode题目的思路】](https://github.com/MisterBooo/LeetCodeAnimation?utm_source=gold_browser_extension)
 ### 设计模式
