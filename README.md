@@ -37,7 +37,7 @@
 - [wg/wrk](https://github.com/wg/wrk)
 - [apache/jmeter](https://github.com/apache/jmeter)
 ### 翻墙工具
-
+- [getlantern/download](https://github.com/getlantern/download)
 ## 内功修炼之道
 ### 数据结构&算法
 - [MisterBooo/LeetCodeAnimation【用动画的形式呈现解LeetCode题目的思路】](https://github.com/MisterBooo/LeetCodeAnimation?utm_source=gold_browser_extension)
