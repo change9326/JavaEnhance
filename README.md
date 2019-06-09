@@ -10,6 +10,11 @@
     - [I/O](#io)
     - [Java 8](#java-8)
     - [编程规范](#编程规范)
+- [工欲善其事，必先利其器](#工欲善其事，必先利其器)
+  - [诊断利器](#诊断利器)
+  - [SQL优化工具](#SQL优化工具)
+  - [压测工具](#压测工具)
+  - [翻墙工具](#翻墙工具)
 - [内功修炼](#内功修炼)
     - [数据结构&算法 ](#数据结构&算法)
     - [设计模式](#设计模式)
@@ -22,6 +27,16 @@
 ### JVM
 
 ## Mysql 
+
+## 工欲善其事，必先利其器
+### 诊断利器
+-  [alibaba/arthas【Alibaba Java诊断利器Arthas】](https://github.com/alibaba/arthas)
+### SQL优化工具
+### 压测工具
+- [wg/wrk](https://github.com/wg/wrk)
+- [apache/jmeter](https://github.com/apache/jmeter)
+### 翻墙工具
+
 ## 内功修炼之道
 ### 数据结构&算法
 - [MisterBooo/LeetCodeAnimation【用动画的形式呈现解LeetCode题目的思路】](https://github.com/MisterBooo/LeetCodeAnimation?utm_source=gold_browser_extension)
