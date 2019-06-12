@@ -38,7 +38,8 @@
 ## 分布式
 ### 分布式锁
 #### 基于Redis 实现分布式锁
--[Redis分布式锁的正确实现方式（Java版）](https://wudashan.cn/2017/10/23/Redis-Distributed-Lock-Implement/)
+- [Redis分布式锁的正确实现方式（Java版）](https://wudashan.cn/2017/10/23/Redis-Distributed-Lock-Implement/)
+- [基于 Redis 的分布式锁](https://juejin.im/post/5ac18d7e5188255cb07d4429#heading-5)
 ## 工欲善其事必先利其器
 ### 诊断利器
 -  [alibaba/arthas【Alibaba Java诊断利器Arthas】](https://github.com/alibaba/arthas)
