@@ -69,6 +69,7 @@ public class ReentrantLockSourceLess {
             return false;
         }
 
+        @Override
         protected final boolean tryRelease(int releases) {
             int c = getState() - releases;
             if (Thread.currentThread() != getExclusiveOwnerThread())

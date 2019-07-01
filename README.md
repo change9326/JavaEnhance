@@ -50,6 +50,9 @@
 - [apache/jmeter](https://github.com/apache/jmeter)
 ### 翻墙工具
 - [getlantern/download](https://github.com/getlantern/download)
+### 数据库建模工具
+- [PDMan数据库建模](http://www.pdman.cn/#/)
+- [mysql workbench]()
 ## 内功修炼之道
 ### 源码阅读
 - [芋道源码 —— 纯源码解析博客](http://www.iocoder.cn/?vip)
