@@ -6,7 +6,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 // 注意：批量操作不提供原子保证  addAll, removeAll, retainAll, containsAll, equals, and toArray
 // 坑： size()方法每次都是遍历整个链表，最好不要频繁调用
 // 如果没有阻塞要求，用这个挺好的（堆积数据）
-public class ConcurrentLinkedQueueDemo {
+class ConcurrentLinkedQueueDemo {
     public static void main(String[] args) throws InterruptedException {
         // 不需要指定容量，addAll
         ConcurrentLinkedQueue<String> queue = new ConcurrentLinkedQueue<String>();

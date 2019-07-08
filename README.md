@@ -59,3 +59,11 @@
 ### 数据结构&算法
 - [MisterBooo/LeetCodeAnimation【用动画的形式呈现解LeetCode题目的思路】](https://github.com/MisterBooo/LeetCodeAnimation?utm_source=gold_browser_extension)
 ### 设计模式
+
+## 其他
+### OAuth2.0
+- [OAuth 2.0 的一个简单解释](http://www.ruanyifeng.com/blog/2019/04/oauth_design.html)
+- [使用 OAuth 2 和 JWT 为微服务提供安全保障](https://segmentfault.com/a/1190000009164779)
+### Protocol Buffer
+- [快来看看 Google 出品的 Protocol Buffer，别只会用 JSON 和 XML 了](https://juejin.im/post/595eefcb5188250da205efbe)
+- [高效的数据压缩编码方式 Protobuf](https://halfrost.com/protobuf_encode/)

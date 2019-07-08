@@ -15,7 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="java8" target="8" />
+      <module name="java8" target="1.8" />
       <module name="java_util" target="8" />
       <module name="JavaCore" target="1.8" />
       <module name="net" target="8" />
