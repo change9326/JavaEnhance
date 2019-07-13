@@ -16,6 +16,7 @@
         <module>java_util</module>
         <module>net</module>
         <module>thread</module>
+        <module>basis</module>
     </modules>
     <dependencyManagement>
         <dependencies>

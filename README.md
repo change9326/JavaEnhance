@@ -67,3 +67,10 @@
 ### Protocol Buffer
 - [快来看看 Google 出品的 Protocol Buffer，别只会用 JSON 和 XML 了](https://juejin.im/post/595eefcb5188250da205efbe)
 - [高效的数据压缩编码方式 Protobuf](https://halfrost.com/protobuf_encode/)
+### 分布式唯一ID生成器
+- [分布式唯一ID的几种生成方案](https://juejin.im/post/5b3a23746fb9a024e15cad79)
+- [分布式全局ID生成方案](https://juejin.im/post/5d22972f6fb9a07edd2a34cc#heading-3)
+- [Twitter雪花算法SnowFlake算法的java实现](https://juejin.im/post/5c75132f51882562276c5065)
+
+### 架构演进
+- [马蜂窝支付中心架构演进](https://juejin.im/post/5d1eea43f265da1bc23f96ec#heading-6)
