@@ -75,7 +75,7 @@ public class LocalDateTimeTest {
         Period period = Period.between(localDate1, localDate2);
         System.out.println(period.getYears());
         System.out.println(period.getMonths());
-        System.out.println(period.getDays());
+
     }
 
     /**

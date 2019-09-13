@@ -35,6 +35,8 @@
 #### Mysql索引
 #### SQL优化
 - [MySQL 查看执行计划](https://www.cnblogs.com/klvchen/p/10137117.html)
+#### 搞懂Mysql 连接查询
+- [Mysql 内连接、左连接、右连接以及全连接查询](https://blog.csdn.net/zjt980452483/article/details/82945663)
 ## 分布式
 ### 分布式锁
 #### 基于Redis 实现分布式锁

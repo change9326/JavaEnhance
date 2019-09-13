@@ -3,7 +3,9 @@ import org.junit.Test;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * @author yujiaqi
@@ -32,5 +34,17 @@ public class TestDemo {
         System.out.println(new BigInteger("8000").compareTo(new BigInteger("6000")));
     }
 
+    @Test
+    public void test04(){
+        Set<Integer> s=new HashSet<>();
+        s.add(1);
+        boolean contains = s.contains("");
+        System.out.println(contains);
+    }
 
+    @Test
+    public void test05(){
+        int[] sns=null;
+        System.out.println(sns.toString());
+    }
 }

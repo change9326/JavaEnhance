@@ -53,3 +53,31 @@ hs_err_pid*
 
 
 
+.project
+.settings/
+basis
+basis/.project
+basis/.settings/
+basis/src/main/
+basis/target/generated-test-sources/
+java8/.project
+java8/.settings/
+java8/src/main/resources/
+java8/target/generated-sources/
+java8/target/generated-test-sources/
+java_util/.project
+java_util/.settings/
+java_util/src/main/resources/
+java_util/src/test/
+net/.project
+net/.settings/
+net/src/main/resources/
+net/src/test/
+net/target/generated-sources/
+target/
+thread/.project
+thread/.settings/
+thread/src/main/java/com/learn/juc/
+thread/src/main/resources/
+thread/src/test/
+thread/target/generated-sources/

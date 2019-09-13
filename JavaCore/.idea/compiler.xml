@@ -21,7 +21,7 @@
       <module name="java_util" target="1.5" />
       <module name="JavaCore" target="1.8" />
       <module name="net" target="1.8" />
-      <module name="thread" target="1.5" />
+      <module name="thread" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

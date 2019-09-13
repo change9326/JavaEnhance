@@ -90,4 +90,13 @@ public class BigDecimalTest {
         System.out.println(b1.setScale(1, BigDecimal.ROUND_HALF_EVEN));//1.4
 
     }
+
+    @Test
+    public void test06(){
+        BigDecimal b1 = new BigDecimal("100");
+        b1.add(new BigDecimal("200"));
+        System.out.println(b1);
+    }
 }
+
+
