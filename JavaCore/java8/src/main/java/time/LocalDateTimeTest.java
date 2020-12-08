@@ -2,9 +2,11 @@ package time;
 
 import org.junit.Test;
 
+import java.text.DateFormat;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAdjusters;
+import java.util.Date;
 
 /**
  * @author yujiaqi
@@ -126,5 +128,74 @@ public class LocalDateTimeTest {
         //LocalDateTime ldt2 = LocalDateTime.parse(formatTime, df2);
         //System.out.println(ldt2);
     }
+
+    @Test
+    public void test07(){
+        LocalDate currentDate = LocalDate.now();
+        // 本月月初日期
+        LocalDate firstDayDate = currentDate.with(TemporalAdjusters.firstDayOfMonth());
+        // 本月末日期
+        LocalDate lastDayDate = currentDate.with(TemporalAdjusters.lastDayOfMonth());
+
+        DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        DateTimeFormatter df3 = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
+
+        System.out.println("firstDayDate:"+firstDayDate.format(df));
+        System.out.println("lastDayDate:"+lastDayDate.format(df));
+
+        Period period = Period.between(firstDayDate, lastDayDate);
+        System.out.println(period.getDays());
+
+
+    }
+    @Test
+    public void test08(){
+        Date date=new Date();
+        LocalDate localDate = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+        DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        System.out.println( localDate.format(df));
+    }
+
+    @Test
+    public void test09(){
+        LocalDate currentDate = LocalDate.now();
+        // 上个月日期
+        LocalDate preMonthDate = currentDate.minusMonths(1);
+        System.out.println(preMonthDate);
+        DateTimeFormatter df = DateTimeFormatter.ofPattern("yyyy-MM");
+        System.out.println(preMonthDate.format(df));
+    }
+
+    @Test
+    public void test10(){
+
+        LocalDateTime localDate1 = LocalDateTime.parse("2018-12-09 22:14:09", DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+        LocalDateTime localDate2 = LocalDateTime.parse("2018-12-09 22:00:07", DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+
+        //Period period=Period.between(localDate1,localDate2);
+        //System.out.println(period.getDays());
+        Duration duration = Duration.between(localDate1, localDate2);
+
+        System.out.println(duration.toDays());// 同一天
+        System.out.println(duration.toMinutes());
+        System.out.println(duration.toMillis());//相差毫秒数
+
+    }
+
+    @Test
+    public void test11(){
+        LocalDate localDate = LocalDate.now();
+        LocalDate preDay = localDate.minusDays(10);
+        System.out.println(preDay.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")));
+    }
+
+    @Test
+    public void test12(){
+        LocalDate localDate = LocalDate.now();
+        LocalDate preMonth = localDate.minusMonths(2);
+        System.out.println(preMonth.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")));
+    }
+
+
 
 }

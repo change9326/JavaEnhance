@@ -33,5 +33,11 @@ public class OptionalTest {
         BigDecimal key1 = Optional.ofNullable((BigDecimal) m.get("key1")).orElse(BigDecimal.ZERO);
         System.out.println(key1);
     }
+    @Test
+    public void test(){
+        Integer a=null;
+        Integer areaId= Optional.ofNullable(a).orElse(1);
+        System.out.printf(areaId+"");
+    }
 
 }

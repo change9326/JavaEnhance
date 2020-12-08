@@ -55,11 +55,7 @@ hs_err_pid*
 
 .project
 .settings/
-basis
-basis/.project
-basis/.settings/
-basis/src/main/
-basis/target/generated-test-sources/
+basis/
 java8/.project
 java8/.settings/
 java8/src/main/resources/

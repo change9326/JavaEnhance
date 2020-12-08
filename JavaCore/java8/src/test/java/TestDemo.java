@@ -44,7 +44,8 @@ public class TestDemo {
 
     @Test
     public void test05(){
-        int[] sns=null;
-        System.out.println(sns.toString());
+        List<String> list=new ArrayList<>();
+        list.add("1");
+        System.out.printf(list.contains("1")+"");
     }
 }

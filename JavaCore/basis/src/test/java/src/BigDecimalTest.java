@@ -3,6 +3,7 @@ package src;
 import org.junit.Test;
 
 import java.math.BigDecimal;
+import java.text.DecimalFormat;
 
 /**
  * @author yujiaqi
@@ -96,6 +97,47 @@ public class BigDecimalTest {
         BigDecimal b1 = new BigDecimal("100");
         b1.add(new BigDecimal("200"));
         System.out.println(b1);
+    }
+    @Test
+    public void test07(){
+        //System.out.println(BigDecimal.ZERO);
+        //boolean b = new BigDecimal("0.00").compareTo(BigDecimal.ZERO) == 0;
+        BigDecimal a = new BigDecimal("5000000");
+        BigDecimal b = new BigDecimal("50000");
+        System.out.println(a.compareTo(b));
+
+    }
+
+    @Test
+    public void test08(){
+        BigDecimal bigDecimal = new BigDecimal("111231.5585990").setScale(2, BigDecimal.ROUND_DOWN);
+        System.out.printf(bigDecimal.toString());
+    }
+
+    @Test
+    public void test09(){
+        String s="<<<<<<<<<<<<<>>>>>>>>>>>>>>";
+        StringBuilder stringBuilder=new StringBuilder();
+        stringBuilder.append(s);
+        System.out.printf(stringBuilder.toString());
+    }
+
+    @Test
+    public void test10(){
+        String company="深圳市连胜八网络科技有限公司_MTM1NQ==";
+        getEncrypt(company);
+        System.out.printf( getEncrypt(company));
+
+    }
+    public static String getEncrypt(String str){
+
+            int indexOf = str.lastIndexOf("_");
+            if(indexOf!=-1){
+                return str.substring(indexOf+1);
+            }
+
+            return "";
+
     }
 }
 

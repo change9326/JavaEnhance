@@ -8,18 +8,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="basis" />
+        <module name="DesignPattern" />
         <module name="java8" />
         <module name="java_util" />
-        <module name="JavaCore" />
+        <module name="jvm" />
         <module name="net" />
         <module name="thread" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="basis" target="1.8" />
+      <module name="DesignPattern" target="1.8" />
       <module name="java8" target="1.8" />
       <module name="java_util" target="1.5" />
       <module name="JavaCore" target="1.8" />
+      <module name="jvm" target="1.8" />
       <module name="net" target="1.8" />
       <module name="thread" target="1.8" />
     </bytecodeTargetLevel>

@@ -1,8 +1,10 @@
 package stream;
 
+import java.math.BigDecimal;
 import java.util.*;
 import java.util.stream.Stream;
 
+import entity.Bill;
 import entity.Trader;
 import entity.Transaction;
 import org.junit.Before;
@@ -25,7 +27,7 @@ public class TestTransaction {
 				new Transaction(raoul, 2011, 400),
 				new Transaction(mario, 2012, 710),
 				new Transaction(mario, 2012, 700),
-				new Transaction(alan, 2012, 950)
+				new Transaction(alan, 2012, 1000)
 		);
 	}
 
@@ -147,9 +149,20 @@ public class TestTransaction {
 	@Test
 	public void test8(){
 		Optional<Transaction> op = transactions.stream()
-					.min((t1, t2) -> Integer.compare(t1.getValue(), t2.getValue()));
+					.max((t1, t2) -> Integer.compare(t1.getValue(), t2.getValue()));
 		
 		System.out.println(op.get());
+	}
+
+	@Test
+	public void test09(){
+		List<Bill> billList=new ArrayList<>();
+		for(int i=0;i<10;i++){
+			Bill bill=new Bill();
+			bill.setMoney(new BigDecimal("11.11"));
+		}
+		BigDecimal all = billList.stream().map(Bill::getMoney).reduce(BigDecimal.ZERO, BigDecimal::add);
+		System.out.println(all);
 	}
 
 }

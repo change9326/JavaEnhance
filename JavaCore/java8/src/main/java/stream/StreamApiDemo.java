@@ -6,6 +6,7 @@ import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 /**
@@ -24,9 +25,7 @@ public class StreamApiDemo {
                 new Employee("李四", 18, 9999.99),
                 new Employee("张三", 18, 999.99),
                 new Employee("王五", 38, 99999.99),
-                new Employee("老七", 58, 999999.99),
-                new Employee("老七", 58, 999999.99),
-                new Employee("老七", 58, 999999.99)
+                new Employee("王五", 39, 99999.99)
         );
     }
     /**
@@ -50,5 +49,9 @@ public class StreamApiDemo {
                 .map((e) -> 1)
                 .reduce(Integer::sum);
         System.out.println(sum.get());
+    }
+
+    @Test
+    public void test03(){
     }
 }

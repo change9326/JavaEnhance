@@ -5,12 +5,12 @@ public class Transaction {
 
 	private Trader trader;
 	private int year;
-	private int value;
+	private Integer value;
 
 	public Transaction() {
 	}
 
-	public Transaction(Trader trader, int year, int value) {
+	public Transaction(Trader trader, int year, Integer value) {
 		this.trader = trader;
 		this.year = year;
 		this.value = value;
